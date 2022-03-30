@@ -167,9 +167,11 @@ triggerDetails.forEach(el => {
         const projectSection = document.querySelector('#projects')
         projectSection.insertAdjacentHTML('beforeend',`
         <div class="project project${idx}">
+        <div class="project--wrapper">
         <h3 class="project--title"><a id="${name.toLowerCase()}" class="custom--link" href="./${slug}.html">${name}</a></h3>
         <h4 class="project--position">${role}</h4>
         <a class="external--link font--bebas" href="${url}" target="_blank" rel="noopener noreferrer">Visit Website</a>
+        </div>
         </div>`)
     }
 

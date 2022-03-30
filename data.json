@@ -1,37 +1,25 @@
 [{
     "projectsList": {
         "1": {
-            "projectName": "Asle",
-            "projectExternalUrl": "http://",
-            "projectRole": "UX / UI Design — Front-end Web Development",
-            "projectSlug":"project/asle"
-        },
-        "2": {
             "projectName": "PnDie",
             "projectExternalUrl": "http://",
             "projectRole": "Front-end Web Development",
             "projectSlug":"project/papaly-never-die"
         },
-        "3": {
-            "projectName": "Beezyz",
-            "projectExternalUrl": "http://",
-            "projectRole": "Prototyping — Fullstack Web Development",
-            "projectSlug":"project/beezyz"
-        },
-        "4": {
+        "2": {
             "projectName": "Fit-Vod",
             "projectExternalUrl": "http://",
             "projectRole": "Prototyping — Fullstack Web Development",
             "projectSlug":"project/fit-vod"
         },
-        "5": {
+        "3": {
             "projectName": "Autolog",
             "projectExternalUrl": "http://",
             "projectRole": "Front-end Web Development — Prototyping",
             "projectSlug":"project/auto-log"
         },
-        "6": {
-            "projectName": "Superchat",
+        "4": {
+            "projectName": "SupRchat",
             "projectExternalUrl": "http://",
             "projectRole": "Fullstack Web Development ",
             "projectSlug":"project/super-chat"
@@ -52,19 +40,6 @@
             "projectGithubLink": ""
         },
         "2": {
-            "projectName": "Asle",
-            "projectExternalUrl": "",
-            "projectRole" : "UX / UI Design, Front-end Web Development",
-            "projectOverview": "Crafting a performant and beautiful website for the jewelry brand Asle",
-            "projectProblems": "",
-            "projectSolutions": "",
-            "projectImages" : ["","",""],
-            "projectTech" : ["Figma", "NextJs", "Shopify"],
-            "projectClient" : "Asle",
-            "projectYear" : "2021-2022",
-            "projectGithubLink": "None"
-        },
-        "3": {
             "projectName": "PnDie",
             "projectExternalUrl": "",
             "projectRole" : "Front-end Web Development",
@@ -77,20 +52,7 @@
             "projectYear" : "2019",
             "projectGithubLink": ""
         },
-        "4": {
-            "projectName": "Beezyz",
-            "projectExternalUrl": "",
-            "projectRole" : "Prototyping / Fullstack Web Development",
-            "projectOverview": "Beezyz is a Progressive Web Application that list Beekeepers in your area that are willing to take care of your beehive or apiary or searching for a land to rent in exchange of honey they harvest",
-            "projectProblems": "Bees are essential to pollinate fields or crops, they are an indicator of wildlife health, with global warming people are more conscious about their role and importance, but not everybody knows how to take care of bees",
-            "projectSolutions": "With Beezyz, this app goal is like bees working together, everyone can make a difference and be rewarded, bees will have a secure shelter and care, Beekeepers can have more lands and more variety of honey to harvest extra honey to contribute to their jobs and for protecting bees, and Us, people that care for bees but does know where to start can taste our own organic honey freshly produce in our backyard and have wildlife and diversity back in our lives",
-            "projectImages" : ["","",""],
-            "projectTech" : ["", "", ""],
-            "projectClient" : "Side Project",
-            "projectYear" : "2022",
-            "projectGithubLink": ""
-        },
-        "5": {
+        "3": {
             "projectName": "Fit-Vod",
             "projectExternalUrl": "",
             "projectRole" : "Prototyping / Fullstack Web Development",
@@ -103,8 +65,8 @@
             "projectYear" : "2021",
             "projectGithubLink": ""
         },
-        "6": {
-            "projectName": "Superchat",
+        "4": {
+            "projectName": "SupRchat",
             "projectExternalUrl": "",
             "projectRole" : "Fullstack Web Development",
             "projectOverview": "A side project Chat App made with socket.io and Node.js.",
