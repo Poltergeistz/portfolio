@@ -1,38 +1,38 @@
 [{
     "projectsList": {
         "1": {
-            "projectName": "Autolog",
-            "projectExternalUrl": "",
-            "projectRole": "Front-end Web Development / Prototyping",
-            "projectSlug":"project/auto-log"
-        },
-        "2": {
             "projectName": "Asle",
-            "projectExternalUrl": "",
-            "projectRole": "UX / UI Design, Front-end Web Development",
+            "projectExternalUrl": "http://",
+            "projectRole": "UX / UI Design — Front-end Web Development",
             "projectSlug":"project/asle"
         },
-        "3": {
+        "2": {
             "projectName": "PnDie",
-            "projectExternalUrl": "",
+            "projectExternalUrl": "http://",
             "projectRole": "Front-end Web Development",
             "projectSlug":"project/papaly-never-die"
         },
-        "4": {
+        "3": {
             "projectName": "Beezyz",
-            "projectExternalUrl": "",
-            "projectRole": "Prototyping / Fullstack Web Development",
+            "projectExternalUrl": "http://",
+            "projectRole": "Prototyping — Fullstack Web Development",
             "projectSlug":"project/beezyz"
         },
-        "5": {
+        "4": {
             "projectName": "Fit-Vod",
-            "projectExternalUrl": "",
-            "projectRole": "Prototyping / Fullstack Web Development",
+            "projectExternalUrl": "http://",
+            "projectRole": "Prototyping — Fullstack Web Development",
             "projectSlug":"project/fit-vod"
+        },
+        "5": {
+            "projectName": "Autolog",
+            "projectExternalUrl": "http://",
+            "projectRole": "Front-end Web Development — Prototyping",
+            "projectSlug":"project/auto-log"
         },
         "6": {
             "projectName": "Superchat",
-            "projectExternalUrl": "",
+            "projectExternalUrl": "http://",
             "projectRole": "Fullstack Web Development ",
             "projectSlug":"project/super-chat"
         }
