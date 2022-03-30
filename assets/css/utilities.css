@@ -148,7 +148,7 @@
 
 .slider:before {
   background-color: var(--text-color);
-  bottom: 0;
+  bottom: -0.1em;
   content: "";
   height: 1em;
   left: -0.1em;
