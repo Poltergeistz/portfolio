@@ -1,0 +1,100 @@
+/* About Page */
+
+.title-2 {
+  margin: 0;
+  margin-top: 0.4em;
+  font-family: "Noto Serif", serif;
+  font-weight: 900;
+  font-size: 3em;
+  text-align: center;
+  color: var(--text-color);
+  text-transform: uppercase;
+  text-decoration-line: line-through;
+  animation: translateTitle 1.5s linear;
+  padding-bottom: 0.1em;
+}
+
+.about--container {
+  padding-right: 1em;
+  padding-left: 1em;
+  color: var(--text-color);
+}
+
+/* .cols-2 {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 2em;
+} */
+
+.about--me {
+  padding-top: 1em;
+  /* animation: fadeIn 2s cubic-bezier(0.55, 0.055, 0.675, 0.19); */
+}
+
+.text--xl {
+  font-family: "Bebas Neue", cursive;
+  font-weight: 100;
+  font-size: 0.8em;
+  text-align: justify;
+  letter-spacing: 0.26em;
+}
+
+.infos {
+  padding-top: 1em;
+  font-family: "Noto Serif", serif;
+  /* animation: fadeIn 4s cubic-bezier(0.55, 0.055, 0.675, 0.19); */
+}
+
+/* .bold {
+  font-weight: 900;
+  text-transform: capitalize;
+} */
+
+.cert--list {
+  padding: 0;
+  margin: 0;
+}
+
+.nav--bottom > nav > ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.contact--el {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 900;
+  font-size: 1.5em;
+}
+
+.contact--el > li {
+  padding: 1em;
+}
+
+.home--link {
+  font-family: Bebas Neue, cursive;
+  font-size: 3em;
+}
+
+.home--link::before {
+  content: "←";
+}
+
+.cursor--profile--image {
+  position: fixed;
+  z-index: -1;
+  height: 400px;
+  width: 250px;
+  background-image: url(../images/20170416_160535.jpg);
+  background-size: cover;
+  filter: grayscale(1);
+  transition: 0.5s cubic-bezier(0.165, 0.84, 0.44, 1);
+}
+
+.cursor--profile--center {
+  opacity: 0;
+  left: -125px;
+  top: -200px;
+}

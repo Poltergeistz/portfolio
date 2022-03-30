@@ -1,0 +1,78 @@
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Noto+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap");
+@import url(./index.css);
+@import url(./project.css);
+@import url(./about.css);
+@import url(./utilities.css);
+
+/* Globals */
+
+:root {
+  --primary-color: #3e432e;
+  --secondary-color: #95977a;
+  --accent-color: #f26d5b;
+  --text-color: #131415;
+  --subtext-color: #1314159f;
+  --background-color: #ffffff;
+  --cursor-color: #3e432e;
+  --title: #95977a;
+  --title-svg: url(../images/FULLSTACK\ Web\ ARTISAN.svg);
+  --subtitle-color: #13141569;
+  --fancy-hero-img: url();
+
+  /* Sizes */
+  --bp-small: 24em;
+  --bp-med: 46.8em;
+  --bp-large: 50em;
+  --bp-xl: 73em;
+}
+
+[data-theme="dark"] {
+  --primary-color: #3e432e;
+  --secondary-color: #95977a;
+  --accent-color: #f26d5b;
+  --text-color: #ffffff;
+  --subtext-color: #1314159f;
+  --background-color: #131415;
+  --cursor-color: #ffffff;
+  --title: #ffffff;
+  --subtitle-color: #ffffff69;
+  --title-svg: url(../images/FULLSTACK\ Web\ ARTISAN\ White.svg);
+  --fancy-hero-img: url(../images/Monstera.png);
+}
+
+html {
+  margin: 0;
+  padding: 0;
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Noto Serif", serif;
+  background-color: var(--background-color);
+  color: var(--text-color);
+  transition: background-color 1.5s cubic-bezier(0.86, 0, 0.07, 1),
+    color 2s cubic-bezier(0.86, 0, 0.07, 1);
+}
+
+main {
+  text-align: center;
+}
+
+ul {
+  padding: 0;
+  list-style-type: none;
+}
+
+h3 {
+  margin: 0;
+  padding: 0;
+}
+
+h4 {
+  margin: 0;
+  padding: 0;
+}
+
+footer {
+  text-align: center;
+}
